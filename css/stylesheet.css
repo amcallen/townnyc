@@ -1,0 +1,154 @@
+/* 
+This is the Navbar
+*/
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 5px;
+    box-sizing: border-box;
+}
+.dropdown{
+    margin-top: 0px;
+}
+nav ul{
+    padding: 0;
+    margin: 0px;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    position: relative;
+    list-style: none;
+    float: left;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+}
+nav ul li a{
+    display: block;
+    position: relative;
+    top: 20px;
+    padding: 0px 10px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+nav ul ul{
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 160px;
+    float: right;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position: relative;
+    top: 40px;
+    left: 160px;
+}
+/*
+This is the Body and background
+*/
+body {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), 
+    url(../img/Chinese-Restaurant-HP-GQ-25Jan17_.jpeg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
+  }
+.logo{
+    width: 200px;
+    padding-left: 2%;
+    padding-top: 5px;
+}
+.hours{
+    position: absolute;
+    text-align: center;
+    top: 430px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.hours h1{
+    text-align: center;
+    color: #fff;
+    font-size: 60px;
+    font-family: source-sans-3, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.hours h2{
+    display: block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-block-start: 27px;
+    margin-block-end: 27px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #fff;
+}
+.hours a{
+    border: 1px solid #be1e2d;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+/* Footer */
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+.alignleft{
+	float: left;
+    color: white;
+    font-size: 12px;
+    line-height:20px;
+    height:40px;
+    overflow:hidden;
+    padding-left: 15px;
+}
+.alignright{
+	float: right;
+    color: white;
+    font-size: 12px;
+    line-height:20px;
+    height:40px;
+    overflow:hidden;
+    padding-right: 15px;
+}

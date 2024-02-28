@@ -1,0 +1,159 @@
+/* 
+This is the Navbar
+*/
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 5px;
+    box-sizing: border-box;
+}
+.dropdown{
+    margin-top: 0px;
+}
+nav ul{
+    padding: 0;
+    margin: 0px;
+    float: right;
+    margin-right: 30px;
+}
+nav ul li{
+    position: relative;
+    list-style: none;
+    float: left;
+    width: 160px;
+    height: 40px;
+    text-align: center;
+}
+nav ul li a{
+    display: block;
+    position: relative;
+    top: 20px;
+    padding: 0px 10px;
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+nav ul li a:hover{
+    border: 1px solid #fff;
+    color: #fff;
+}
+nav ul ul{
+    position: absolute;
+    top: 50px;
+    display: none;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+nav ul ul li{
+    width: 160px;
+    float: right;
+    display: list-item;
+    position: relative;
+}
+nav ul ul ul li{
+    position: relative;
+    top: 40px;
+    left: 160px;
+}
+/*
+This is the Body and background
+*/
+
+body {
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), 
+    url(../img/main.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.logo{
+    width: 200px;
+    padding-left: 2%;
+    padding-top: 5px;
+}
+.about{
+    width: 100%;
+    padding: 140px 0px;
+}
+.about img{
+    height: 420px;
+    width: auto;
+    filter: brightness(60%);
+}
+.about-text{
+    width: 550px;
+}
+.aboutus{
+    width: 1139px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: white;
+    font-size: 30px;
+    font-family: source-sans-3, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 180px;
+}
+.about-text h5, h7{
+    color: white;
+    font-size: 20px;
+    font-family: source-sans-3, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-decoration: underline #be1e2d;
+}
+.about-text h2, h3, h4, h6{
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: source-sans-3, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 25px;
+}
+.highlight{
+    color: #be1e2d;
+}
+/* Footer */
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-transform: uppercase;
+}
+.alignleft{
+	float: left;
+    color: white;
+    font-size: 12px;
+    line-height:20px;
+    height:40px;
+    overflow:hidden;
+    padding-left: 15px;
+}
+.alignright{
+	float: right;
+    color: white;
+    font-size: 12px;
+    line-height:20px;
+    height:40px;
+    overflow:hidden;
+    padding-right: 15px;
+}
